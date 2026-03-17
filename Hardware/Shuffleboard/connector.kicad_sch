@@ -1,0 +1,654 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f770c673-b0d4-44f0-8e5d-f79e424a695b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ShuffCon:1751138"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1751138"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1751138"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-1-6-35-1751138?type=pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block, nominal current: 10 A, rated voltage (III/2): 200 V, nominal cross section: 1 mm?, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, product range: SMKDS 1, pitch: 3.5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 35 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.17"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1751138"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1751138?qs=htTSEoIyzfHTpbfCU98lew%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1751138"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1751138_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Connectors to MSPM0"
+		(exclude_from_sim no)
+		(at 29.21 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9ff8fd4d-756a-4f4f-98dc-065023cc860d")
+	)
+	(polyline
+		(pts
+			(xy 17.78 15.24) (xy 17.78 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2716155f-a45c-4c01-8a2f-b1e3508a1161")
+	)
+	(polyline
+		(pts
+			(xy 17.78 16.51) (xy 17.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771d3f73-c4f9-4d82-b890-2a79f6656a59")
+	)
+	(polyline
+		(pts
+			(xy 17.78 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f532446-c853-49f7-a716-889ba2fc4b0b")
+	)
+	(polyline
+		(pts
+			(xy 81.28 15.24) (xy 17.78 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa4059e-6e2e-4ab9-b06d-272e1ad17588")
+	)
+	(polyline
+		(pts
+			(xy 81.28 68.58) (xy 81.28 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb247015-d7a3-42aa-a2f3-9b0f31faed4a")
+	)
+	(hierarchical_label "HOR_PB18_ADC1_5"
+		(shape input)
+		(at 39.37 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "09aa1206-e894-463e-9580-2784d33cdac5")
+	)
+	(hierarchical_label "3.3VIN"
+		(shape output)
+		(at 39.37 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24010b90-4469-4d54-92d0-76cf9bd6ad1c")
+	)
+	(hierarchical_label "GNDIN"
+		(shape output)
+		(at 39.37 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d4e9bb0-7a0b-4cb7-b890-59368ec9b123")
+	)
+	(hierarchical_label "VER_PB19_ADC1_6"
+		(shape input)
+		(at 39.37 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "5140ba0e-9e78-4abc-9ac3-c8869e346c58")
+	)
+	(hierarchical_label "PA15_DAC_OUT"
+		(shape output)
+		(at 39.37 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fafdd5a-69c3-4afc-b3d8-c44370378533")
+	)
+	(hierarchical_label "POS_PB17_ADC1_4"
+		(shape input)
+		(at 39.37 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "d61b285c-b5c6-4575-bfeb-a751acaf5fb3")
+	)
+	(hierarchical_label "PB4_SHOOT"
+		(shape input)
+		(at 39.37 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5934375-18eb-483c-b4b3-cd29e70a1fa6")
+	)
+	(hierarchical_label "PB1_RST"
+		(shape input)
+		(at 39.37 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f636db06-9e1e-4fb7-8d63-d42a28da20c6")
+	)
+	(symbol
+		(lib_id "ShuffCon:1751138")
+		(at 39.37 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "709fcab5-5bd7-408f-9917-fdd35367d652")
+		(property "Reference" "J1"
+			(at 55.88 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1751138"
+			(at 55.88 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1751138"
+			(at 55.88 115.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-1-6-35-1751138?type=pdf"
+			(at 55.88 215.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 10 A, rated voltage (III/2): 200 V, nominal cross section: 1 mm?, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, product range: SMKDS 1, pitch: 3.5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 35 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 39.37 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.17"
+			(at 55.88 415.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1751138"
+			(at 55.88 515.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1751138?qs=htTSEoIyzfHTpbfCU98lew%3D%3D"
+			(at 55.88 615.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 55.88 715.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1751138"
+			(at 55.88 815.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3a79515f-c5d3-4b02-9bf0-46dedb711f17")
+		)
+		(pin "6"
+			(uuid "8f1f1306-18ed-48e8-a120-d8d948aa1dcd")
+		)
+		(pin "3"
+			(uuid "9c259597-99c2-40a2-8eba-75742882e12c")
+		)
+		(pin "4"
+			(uuid "7a522268-49df-4ef7-bf46-44d3fc2e69d6")
+		)
+		(pin "1"
+			(uuid "a162e0de-ef7e-4d6a-b118-4ffd2f62be41")
+		)
+		(pin "2"
+			(uuid "570328b8-1ac1-4e8e-a771-15d19e9d9299")
+		)
+		(instances
+			(project ""
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/f6cbe0e1-299e-456f-b96f-f85427eff6fd"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShuffCon:1751138")
+		(at 39.37 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb89543c-3cff-479d-8144-e1b5504f9541")
+		(property "Reference" "J2"
+			(at 55.88 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1751138"
+			(at 55.88 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1751138"
+			(at 55.88 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-1-6-35-1751138?type=pdf"
+			(at 55.88 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 10 A, rated voltage (III/2): 200 V, nominal cross section: 1 mm?, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, product range: SMKDS 1, pitch: 3.5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 35 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 39.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.17"
+			(at 55.88 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1751138"
+			(at 55.88 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1751138?qs=htTSEoIyzfHTpbfCU98lew%3D%3D"
+			(at 55.88 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 55.88 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1751138"
+			(at 55.88 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e07b6d3a-f572-4f21-bbb6-680a8dd6c53e")
+		)
+		(pin "6"
+			(uuid "89a1d954-8584-40c7-a681-1cb20249eff8")
+		)
+		(pin "3"
+			(uuid "5f9f5845-590d-441d-960a-cfb16db2bdb9")
+		)
+		(pin "4"
+			(uuid "6de3fefc-5789-4c2a-83a6-48fbcfba9e62")
+		)
+		(pin "1"
+			(uuid "be4588dc-c743-4ce8-999c-22a0e4d70d13")
+		)
+		(pin "2"
+			(uuid "43092ed3-b28c-4b57-bcc1-d88bedc6ebd6")
+		)
+		(instances
+			(project "Shuffleboard"
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/f6cbe0e1-299e-456f-b96f-f85427eff6fd"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
