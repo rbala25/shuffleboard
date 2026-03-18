@@ -7799,7 +7799,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "330"
 			(at 246.38 27.686 90)
 			(effects
 				(font
@@ -7807,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 249.682 27.94 90)
 			(effects
 				(font
@@ -7834,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/ProductDetail/YAGEO/RE0603DRE07511RL?qs=k2KEx2DUIRRHZePwM2PQsA%3D%3D"
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ2010F330R?qs=wUXugUrL1qwW9IDGKnwDXA%3D%3D"
 			(at 251.46 27.94 0)
 			(effects
 				(font
@@ -7852,7 +7852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RE0603DRE07511RL"
+		(property "Mouser Part Number" "279-CRGCQ2010F330R"
 			(at 251.46 27.94 0)
 			(effects
 				(font
