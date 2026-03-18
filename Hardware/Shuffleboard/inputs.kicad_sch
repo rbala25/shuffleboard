@@ -1435,6 +1435,322 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TL3301FF160QG:TL3301FF160QG"
 			(pin_names
 				(offset 1.016)
@@ -2029,7 +2345,7 @@
 	)
 	(text "CompOut:\n3.3V if invalid.\n0V if valid."
 		(exclude_from_sim no)
-		(at 244.856 29.972 0)
+		(at 233.934 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 36.83) (xy 245.11 36.83)
+			(xy 237.49 36.83) (xy 243.84 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2718,7 @@
 	)
 	(polyline
 		(pts
-			(xy 260.35 13.97) (xy 194.31 13.97)
+			(xy 271.78 13.97) (xy 194.31 13.97)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2768,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 90.17) (xy 260.35 90.17)
+			(xy 194.31 90.17) (xy 271.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2908,7 @@
 	)
 	(polyline
 		(pts
-			(xy 260.35 90.17) (xy 260.35 13.97)
+			(xy 271.78 90.17) (xy 271.78 13.97)
 		)
 		(stroke
 			(width 0)
@@ -2690,16 +3006,6 @@
 		)
 		(uuid "dfe3bdbf-e809-4a3c-835c-b1e619d89aae")
 	)
-	(wire
-		(pts
-			(xy 245.11 54.61) (xy 245.11 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2cdc9c5-5eaf-4f26-b76b-c42a91188412")
-	)
 	(polyline
 		(pts
 			(xy 88.9 77.47) (xy 88.9 13.97)
@@ -2709,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "e3a8cf61-e3c7-43d6-b62b-ff2215003d57")
-	)
-	(wire
-		(pts
-			(xy 245.11 36.83) (xy 245.11 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e595757e-2504-4012-94e1-04e9e2e6074b")
 	)
 	(polyline
 		(pts
@@ -2785,7 +3081,7 @@
 		(uuid "7c088caf-e5f1-4622-9701-38bb82a7835e")
 	)
 	(label "CompOut"
-		(at 245.11 36.83 0)
+		(at 243.84 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,7 +3446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "ShuffleboardFootprints:SOT65P210X110-6N"
 			(at 55.88 146.99 0)
 			(effects
 				(font
@@ -3226,6 +3522,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "google.com/search?q=78-DG3157EDL-T1-GE3&oq=78-DG3157EDL-T1-GE3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBdIBBzE3NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
+			(at 34.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3842,7 +4147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "ShuffleboardFootprints:SOT65P210X110-6N"
 			(at 231.14 166.04 0)
 			(effects
 				(font
@@ -3918,6 +4223,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "google.com/search?q=78-DG3157EDL-T1-GE3&oq=78-DG3157EDL-T1-GE3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBdIBBzE3NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4273,6 +4587,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "543474b1-9934-44c7-8c8d-d20b6f30a3cf")
+		(property "Reference" "#PWR032"
+			(at 255.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 262.89 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aea5851-934c-4981-b0c8-c3d3793ed33b")
+		)
+		(instances
+			(project ""
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 45.72 90)
 		(unit 1)
@@ -4539,6 +4920,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c69a6b1-2cf5-4844-bb10-ac3cf6c8a12a")
+		(property "Reference" "#PWR037"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42a1ef6-9b5b-4f20-ae2c-6b26205333e9")
+		)
+		(instances
+			(project ""
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 54.61 270)
 		(unit 1)
@@ -4607,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 245.11 50.8 270)
+		(at 255.27 24.13 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4616,7 +5063,7 @@
 		(dnp no)
 		(uuid "76920323-4364-4a62-900b-15fc5a05e9cf")
 		(property "Reference" "D1"
-			(at 241.3 51.1174 90)
+			(at 254.9526 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5072,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 241.3 53.6574 90)
+			(at 252.4126 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +5081,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 245.11 50.8 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +5090,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/350/1/C18734.pdf"
-			(at 245.11 50.8 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +5099,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 245.11 50.8 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +5108,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Dialight/521-8714F?qs=VVKQmw408U8Hoj3%252BT2bJjA%3D%3D"
-			(at 245.11 50.8 90)
+			(at 255.27 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +5117,7 @@
 			)
 		)
 		(property "JLCPCB #" ""
-			(at 245.11 50.8 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +5126,7 @@
 			)
 		)
 		(property "Mouser Part Number" "645-521-8714F"
-			(at 245.11 50.8 90)
+			(at 255.27 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,6 +5441,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c6d4d2a-52a0-4b62-aa60-730adccfd129")
+		(property "Reference" "R12"
+			(at 234.95 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 232.41 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 235.712 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay/CRCW060310K0FKEA?qs=pAO1Z172M84BVnhDjtnsoQ%3D%3D"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C25804"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "227401c0-7d9b-4c90-9f4e-5d253bed16d5")
+		)
+		(pin "1"
+			(uuid "344d4cab-d2e1-46b1-844b-01ede1adc64e")
+		)
+		(instances
+			(project "Shuffleboard"
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 234.95 73.66 270)
 		(unit 1)
@@ -5246,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ShuffleboardFootprints:lmv331"
 			(at 222.25 34.29 0)
 			(effects
 				(font
@@ -6417,6 +6958,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 248.92 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c69d9d1e-4e88-45af-a6ce-9682a231bf45")
+		(property "Reference" "Q1"
+			(at 255.27 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 255.27 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ShuffleboardFootprints:SOT95P260X110-3N"
+			(at 254 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 248.92 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 248.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/2N7002-H6327?qs=CVg1V728NXGZyf6kD1tkzQ%3D%3D"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-2N7002H6327"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35415b69-de6f-49ab-9018-8ffd48a23ad4")
+		)
+		(pin "3"
+			(uuid "e9dba8de-80c9-4e23-b7de-a66c1e665650")
+		)
+		(pin "1"
+			(uuid "8b2e695d-6ea8-4cdc-a337-3cb5b301ed88")
+		)
+		(instances
+			(project ""
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 45.72 0)
 		(unit 1)
@@ -7125,101 +7784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e826e887-708a-4673-a9cd-27b32d01caed")
-		(property "Reference" "R12"
-			(at 234.95 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 232.41 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 235.712 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay/CRCW060310K0FKEA?qs=pAO1Z172M84BVnhDjtnsoQ%3D%3D"
-			(at 237.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" "C25804"
-			(at 237.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
-			(at 237.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "342d8049-79de-439b-b4b6-a511403691d6")
-		)
-		(pin "1"
-			(uuid "9a063b75-c1f2-4fe7-879b-8e9d4f227542")
-		)
-		(instances
-			(project "Shuffleboard"
-				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 245.11 43.18 0)
+		(at 251.46 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7227,7 +7792,7 @@
 		(dnp no)
 		(uuid "f14b6fb9-de8f-4f5c-a9d0-35db2b245e4e")
 		(property "Reference" "R10"
-			(at 242.57 42.926 90)
+			(at 248.92 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7800,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 240.03 42.926 90)
+			(at 246.38 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7808,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 243.332 43.18 90)
+			(at 249.682 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 43.18 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7826,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 245.11 43.18 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7835,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/YAGEO/RE0603DRE07511RL?qs=k2KEx2DUIRRHZePwM2PQsA%3D%3D"
-			(at 245.11 43.18 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7844,7 @@
 			)
 		)
 		(property "JLCPCB #" ""
-			(at 245.11 43.18 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7853,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RE0603DRE07511RL"
-			(at 245.11 43.18 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,73 +8034,6 @@
 			(project ""
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f79eeb5c-3719-44bb-bbd0-011b90ca0b5a")
-		(property "Reference" "#PWR032"
-			(at 245.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0956bce7-b663-45fc-86d7-34cf043523a8")
-		)
-		(instances
-			(project "Shuffleboard"
-				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)

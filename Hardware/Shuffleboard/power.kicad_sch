@@ -1071,6 +1071,12 @@
 		(uuid "b15dacd7-2434-4c0b-973c-adf9db78cf96")
 	)
 	(junction
+		(at 59.69 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e44855-8515-4751-b726-b98dc9652f78")
+	)
+	(junction
 		(at 49.53 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1643,7 +1649,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 60.96 30.48 0)
+		(at 59.69 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1652,7 +1658,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd442c4-19f1-4e07-805f-bb9aeb720a06")
 		(property "Reference" "#PWR025"
-			(at 60.96 34.29 0)
+			(at 59.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1667,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 60.96 25.4 0)
+			(at 59.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +1675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,7 +1684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 60.96 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 87.63 16.51 0)
 			(effects
 				(font

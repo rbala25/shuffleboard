@@ -1146,6 +1146,26 @@
 		)
 		(uuid "dd4eb388-1eb6-4685-a0b2-9178bb94517d")
 	)
+	(label "OUT-"
+		(at 100.33 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b434ab7-f675-49a4-8636-10d3a8c691a4")
+	)
+	(label "OUT+"
+		(at 100.33 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c0bee8-d4e1-4db2-b022-72e5d32e56a5")
+	)
 	(hierarchical_label "PA15_DAC_OUT"
 		(shape input)
 		(at 34.29 26.67 180)
