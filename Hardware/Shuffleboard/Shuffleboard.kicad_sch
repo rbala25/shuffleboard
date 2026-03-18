@@ -301,6 +301,16 @@
 		(uuid "2da99e4d-4f13-42cd-96b4-c92c7c9dbe06")
 	)
 	(label "3.3VIN"
+		(at 182.88 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35bb5073-e159-4097-8603-461c4ca2a3e1")
+	)
+	(label "3.3VIN"
 		(at 77.47 38.1 0)
 		(effects
 			(font
@@ -349,17 +359,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5a7fd41-03e0-4be1-820e-6b5a9797197c")
-	)
-	(hierarchical_label "3.3VIN"
-		(shape output)
-		(at 182.88 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a83644c-37b3-48a8-8623-98c2897f991b")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")

@@ -2528,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 36.83) (xy 243.84 36.83)
+			(xy 237.49 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2718,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.78 13.97) (xy 194.31 13.97)
+			(xy 280.67 13.97) (xy 194.31 13.97)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2768,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 90.17) (xy 271.78 90.17)
+			(xy 194.31 90.17) (xy 280.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2908,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.78 90.17) (xy 271.78 13.97)
+			(xy 280.67 90.17) (xy 280.67 13.97)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4588,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 259.08 24.13 270)
+		(at 267.97 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,7 +4597,7 @@
 		(fields_autoplaced yes)
 		(uuid "543474b1-9934-44c7-8c8d-d20b6f30a3cf")
 		(property "Reference" "#PWR032"
-			(at 255.27 24.13 0)
+			(at 264.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 262.89 24.1299 90)
+			(at 271.78 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 24.13 0)
+			(at 267.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 24.13 0)
+			(at 267.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 259.08 24.13 0)
+			(at 267.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +4921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 41.91 0)
+		(at 260.35 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4930,7 +4930,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c69a6b1-2cf5-4844-bb10-ac3cf6c8a12a")
 		(property "Reference" "#PWR037"
-			(at 251.46 48.26 0)
+			(at 260.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 46.99 0)
+			(at 260.35 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 41.91 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 41.91 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 41.91 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 255.27 24.13 0)
+		(at 264.16 24.13 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5063,7 +5063,7 @@
 		(dnp no)
 		(uuid "76920323-4364-4a62-900b-15fc5a05e9cf")
 		(property "Reference" "D1"
-			(at 254.9526 20.32 90)
+			(at 263.8426 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5072,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 252.4126 20.32 90)
+			(at 261.3026 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5081,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 255.27 24.13 0)
+			(at 264.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5090,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/350/1/C18734.pdf"
-			(at 255.27 24.13 0)
+			(at 264.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5099,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 255.27 24.13 0)
+			(at 264.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5108,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Dialight/521-8714F?qs=VVKQmw408U8Hoj3%252BT2bJjA%3D%3D"
-			(at 255.27 24.13 90)
+			(at 264.16 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "JLCPCB #" ""
-			(at 255.27 24.13 0)
+			(at 264.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Mouser Part Number" "645-521-8714F"
-			(at 255.27 24.13 90)
+			(at 264.16 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,6 +6891,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 248.92 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b78414ec-41ea-4618-a19d-114f4dc4d448")
+		(property "Reference" "R14"
+			(at 249.174 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 249.174 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 248.92 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ2010F330R?qs=wUXugUrL1qwW9IDGKnwDXA%3D%3D"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "279-CRGCQ2010F330R"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "275f8c81-601c-4825-8ec5-6e43d3b8bd97")
+		)
+		(pin "1"
+			(uuid "8dcd0ea4-0e95-458f-8433-d38b4fb1a436")
+		)
+		(instances
+			(project "Shuffleboard"
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/64806a61-d157-4b9f-a3a2-54f9af1ae5be"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 237.49 26.67 0)
 		(unit 1)
@@ -6959,7 +7053,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 248.92 36.83 0)
+		(at 257.81 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6968,7 +7062,7 @@
 		(fields_autoplaced yes)
 		(uuid "c69d9d1e-4e88-45af-a6ce-9682a231bf45")
 		(property "Reference" "Q1"
-			(at 255.27 35.5599 0)
+			(at 264.16 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +7071,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 255.27 38.0999 0)
+			(at 264.16 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7080,7 @@
 			)
 		)
 		(property "Footprint" "ShuffleboardFootprints:SOT95P260X110-3N"
-			(at 254 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +7089,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 248.92 49.53 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7098,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 248.92 36.83 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +7107,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 248.92 53.975 0)
+			(at 257.81 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7116,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 248.92 55.88 0)
+			(at 257.81 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7125,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 248.92 52.07 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7134,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/2N7002-H6327?qs=CVg1V728NXGZyf6kD1tkzQ%3D%3D"
-			(at 248.92 36.83 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7143,7 @@
 			)
 		)
 		(property "Mouser Part Number" "726-2N7002H6327"
-			(at 248.92 36.83 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7878,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 27.94 0)
+		(at 260.35 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7792,7 +7886,7 @@
 		(dnp no)
 		(uuid "f14b6fb9-de8f-4f5c-a9d0-35db2b245e4e")
 		(property "Reference" "R10"
-			(at 248.92 27.686 90)
+			(at 257.81 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7894,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 246.38 27.686 90)
+			(at 255.27 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
-			(at 249.682 27.94 90)
+			(at 258.572 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7920,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.46 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7929,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ2010F330R?qs=wUXugUrL1qwW9IDGKnwDXA%3D%3D"
-			(at 251.46 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7938,7 @@
 			)
 		)
 		(property "JLCPCB #" ""
-			(at 251.46 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7947,7 @@
 			)
 		)
 		(property "Mouser Part Number" "279-CRGCQ2010F330R"
-			(at 251.46 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
