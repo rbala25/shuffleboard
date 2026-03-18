@@ -680,6 +680,30 @@
           "label": "CREATOR",
           "name": "CREATOR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -752,7 +776,7 @@
     ],
     [
       "136cb42f-5d59-4990-9d44-95411eadba11",
-      "8fig"
+      "7Seg"
     ],
     [
       "cb2e7e6c-b6e5-4b1e-adea-6829899b3c9f",

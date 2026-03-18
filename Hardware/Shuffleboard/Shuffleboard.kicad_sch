@@ -700,7 +700,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "136cb42f-5d59-4990-9d44-95411eadba11")
-		(property "Sheetname" "8fig"
+		(property "Sheetname" "7Seg"
 			(at 182.88 28.4984 0)
 			(effects
 				(font
