@@ -1,4 +1,4 @@
-26954791932135959
+26956565797894478
 0_LHRE_Footprints
 2-2U1S Toshiba_MOSFET
 
@@ -98804,6 +98804,13 @@ Connector
 0
 8
 8
+ShuffleboardFootprints
+CES-110-XX-Y-S
+CES-110-XX-Y-S
+Connector
+0
+10
+10
 ShuffleboardFootprints
 Potentiometer_Bourns_PTA6043_Single_Slide
 Bourns single-gang slide potentiometer, 60.0mm travel, https://www.bourns.com/docs/Product-Datasheets/pta.pdf
