@@ -349,7 +349,7 @@
 		(uuid "fb247015-d7a3-42aa-a2f3-9b0f31faed4a")
 	)
 	(hierarchical_label "PB8_MOSI(PICO)"
-		(shape input)
+		(shape output)
 		(at 39.37 50.8 180)
 		(effects
 			(font
@@ -372,7 +372,7 @@
 		(uuid "09aa1206-e894-463e-9580-2784d33cdac5")
 	)
 	(hierarchical_label "PB9_SPI_CLK"
-		(shape input)
+		(shape output)
 		(at 39.37 53.34 180)
 		(effects
 			(font
@@ -428,7 +428,7 @@
 		(uuid "8fafdd5a-69c3-4afc-b3d8-c44370378533")
 	)
 	(hierarchical_label "PB16_LATCH_PULSE"
-		(shape input)
+		(shape output)
 		(at 39.37 55.88 180)
 		(effects
 			(font

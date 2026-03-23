@@ -300,6 +300,16 @@
 		)
 		(uuid "2da99e4d-4f13-42cd-96b4-c92c7c9dbe06")
 	)
+	(label "PB8_MOSI"
+		(at 182.88 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e4fa205-f646-4d7d-b5cd-d782252054b2")
+	)
 	(label "3.3VIN"
 		(at 182.88 73.66 180)
 		(effects
@@ -310,6 +320,16 @@
 		)
 		(uuid "35bb5073-e159-4097-8603-461c4ca2a3e1")
 	)
+	(label "PB16_L{slash}P"
+		(at 182.88 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39ba38d0-9d9d-49ad-9257-1a108efd93ec")
+	)
 	(label "3.3VIN"
 		(at 77.47 38.1 0)
 		(effects
@@ -319,6 +339,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b0d7ac3-7e15-4141-9def-b461a05d07e8")
+	)
+	(label "PB8_MOSI"
+		(at 29.21 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e67d57c-5b49-444e-affd-cd95a46f4fde")
 	)
 	(label "DACOut"
 		(at 77.47 45.72 0)
@@ -340,6 +370,16 @@
 		)
 		(uuid "7241b4c1-a75c-4138-96f7-0aaeb739e78b")
 	)
+	(label "PB16_L{slash}P"
+		(at 29.21 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fb1068d-70b4-44f2-88f6-7164f00695d7")
+	)
 	(label "PB1RST"
 		(at 29.21 54.61 180)
 		(effects
@@ -350,6 +390,16 @@
 		)
 		(uuid "b2a72647-a123-47d4-8a97-3e0640673060")
 	)
+	(label "PB9_SPI_CLK"
+		(at 182.88 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c36808d3-ff1f-449c-994c-79461ad32ce6")
+	)
 	(label "PB1RST"
 		(at 157.48 34.29 0)
 		(effects
@@ -359,6 +409,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5a7fd41-03e0-4be1-820e-6b5a9797197c")
+	)
+	(label "PB9_SPI_CLK"
+		(at 29.21 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d21f205f-0d91-4201-8919-d1c960e29101")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -845,6 +905,36 @@
 				(justify left top)
 			)
 		)
+		(pin "PB9_SPI_CLK" input
+			(at 182.88 35.56 180)
+			(uuid "d5820acc-8c68-4fc0-80b6-c419b332f359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB8_MOSI(PICO)" input
+			(at 182.88 38.1 180)
+			(uuid "16cdccdc-b146-4f36-8700-b7151e267c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB16_LATCH_PULSE" input
+			(at 182.88 40.64 180)
+			(uuid "a9adee50-7a29-4aff-afc2-5a3c5955b28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e"
@@ -1198,6 +1288,36 @@
 		(pin "PB4_SHOOT" input
 			(at 29.21 52.07 180)
 			(uuid "a925189d-c49d-4130-a993-648d05f7e8ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB8_MOSI(PICO)" output
+			(at 29.21 38.1 180)
+			(uuid "77719a4d-e287-40ad-b5d7-46d3648e97b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB9_SPI_CLK" output
+			(at 29.21 35.56 180)
+			(uuid "547cff8e-ee75-4b40-ade4-8e247ca3a1cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB16_LATCH_PULSE" output
+			(at 29.21 33.02 180)
+			(uuid "62e67af6-81b9-4749-9893-daf86f59804c")
 			(effects
 				(font
 					(size 1.27 1.27)
