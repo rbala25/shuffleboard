@@ -348,6 +348,17 @@
 		)
 		(uuid "fb247015-d7a3-42aa-a2f3-9b0f31faed4a")
 	)
+	(hierarchical_label "PB8_MOSI(PICO)"
+		(shape input)
+		(at 39.37 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06708b00-5b7a-4db6-a3f7-1f6c0fa11677")
+	)
 	(hierarchical_label "HOR_PB18_ADC1_5"
 		(shape input)
 		(at 39.37 31.75 180)
@@ -359,6 +370,17 @@
 			(justify right)
 		)
 		(uuid "09aa1206-e894-463e-9580-2784d33cdac5")
+	)
+	(hierarchical_label "PB9_SPI_CLK"
+		(shape input)
+		(at 39.37 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11c0ff28-1eec-41c9-ac19-833f96873b20")
 	)
 	(hierarchical_label "3.3VIN"
 		(shape output)
@@ -404,6 +426,17 @@
 			(justify right)
 		)
 		(uuid "8fafdd5a-69c3-4afc-b3d8-c44370378533")
+	)
+	(hierarchical_label "PB16_LATCH_PULSE"
+		(shape input)
+		(at 39.37 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1d8d11d-ad55-42d6-9fb5-413cfcc68f2a")
 	)
 	(hierarchical_label "POS_PB17_ADC1_4"
 		(shape input)
