@@ -5,31 +5,51 @@
 	(uuid "587cc719-3d8a-4dde-8008-47463e217945")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x10"
+		(symbol "ECE319:Adafruit_ST7735R"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 12.7 0)
+			(property "Reference" "U?"
+				(at -15.24 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "Adafruit ST7735R"
+				(at -15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ECE319K:adafruit_st7735r"
+				(at -5.08 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/737/ST7735R_V0_2-2489618.pdf"
+				(at -1.27 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +58,34 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Distributor" "Mouser"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Adafruit"
+				(at -15.24 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "358"
+				(at -1.27 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,8 +94,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Cost" "19.95"
+				(at 11.43 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -56,28 +103,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x10_1_1"
+			(symbol "Adafruit_ST7735R_0_0"
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(start -15.24 15.24)
+					(end 15.24 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -86,293 +115,208 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_1"
+			)
+			(symbol "Adafruit_ST7735R_1_0"
+				(pin output line
+					(at -20.32 11.43 0)
+					(length 5.08)
+					(name "MISO"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
+				(pin input clock
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "SCK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 3.81 0)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "TFT_CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -3.81 0)
+					(length 5.08)
+					(name "CARD_CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "D/C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -11.43 0)
+					(length 5.08)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 8.89 180)
+					(length 5.08)
+					(name "LITE"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Adafruit_ST7735R_1_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 132 0 0 1)
+					)
+				)
+				(text "160 tall, 128 wide"
+					(at 1.27 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -381,35 +325,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 38.1 36.83 0)
+		(lib_id "ECE319:Adafruit_ST7735R")
+		(at 55.88 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ced5a929-f737-4269-a93a-99e7c7810ad6")
-		(property "Reference" "J3"
-			(at 40.64 36.8299 0)
+		(uuid "dc81ff11-e41b-4749-b50d-f3b3b268835a")
+		(property "Reference" "U7"
+			(at 55.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10"
-			(at 40.64 39.3699 0)
+		(property "Value" "Adafruit ST7735R"
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "ShuffleboardFootprints:CES-110-XX-Y-S"
-			(at 38.1 36.83 0)
+		(property "Footprint" "Footprint:adafruit_st7735r"
+			(at 50.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/737/ST7735R_V0_2-2489618.pdf"
+			(at 54.61 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,8 +369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/85/1/ces.pdf"
-			(at 38.1 36.83 0)
+		(property "Description" ""
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,8 +378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 36.83 0)
+		(property "Distributor" "Mouser"
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,8 +387,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Samtec/CES-110-01-G-S?qs=0lQeLiL1qybgWSOLyEsrIw%3D%3D"
-			(at 38.1 36.83 0)
+		(property "Manufacturer" "Adafruit"
+			(at 40.64 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,8 +396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-CES11001GS"
-			(at 38.1 36.83 0)
+		(property "P/N" "358"
+			(at 54.61 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,40 +405,58 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "eb029107-4e3e-41f0-9761-e95aa2f3bebe")
+		(property "LCSC Part #" ""
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "576df491-47b5-44e2-8f4f-8e81e8d95a3a")
-		)
-		(pin "4"
-			(uuid "6407a615-8c48-47f2-8c5e-d01138a3f4b5")
-		)
-		(pin "5"
-			(uuid "72dbbf0b-7df9-47a0-ba77-0f05d730e5ff")
-		)
-		(pin "6"
-			(uuid "deb35557-8292-40c5-b027-0bc95e861de2")
-		)
-		(pin "10"
-			(uuid "491c05e8-d489-47af-9ddf-66ade0204f11")
-		)
-		(pin "3"
-			(uuid "5ef078fc-d8e1-4bb5-87ae-46f6d70ad1db")
-		)
-		(pin "2"
-			(uuid "ebb9b4dd-a686-42b0-8b7d-453b8f29b38a")
+		(property "Cost" "19.95"
+			(at 67.31 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "72f94633-7949-4677-8934-ec5633f8c94c")
+			(uuid "79668309-f416-43a7-b5a1-fb79c678fe81")
+		)
+		(pin "7"
+			(uuid "7d4291ea-05c6-470f-97bf-5820d6fe41c6")
+		)
+		(pin "3"
+			(uuid "c5275c97-e9eb-436a-8a5d-83835b03ab10")
 		)
 		(pin "9"
-			(uuid "bb8da1fc-fa2a-411b-ab93-3e3bd516a8bd")
+			(uuid "ae541509-e8bc-4f5b-99f7-72660dd792e2")
+		)
+		(pin "6"
+			(uuid "a54b78f6-b8e6-4a6b-8267-b2746857ad9c")
+		)
+		(pin "8"
+			(uuid "58e867d8-1cd9-4c92-bd61-9a10cdc5f1b7")
+		)
+		(pin "5"
+			(uuid "acee2964-0e48-4ded-a8f2-6d4d3fd2205b")
+		)
+		(pin "2"
+			(uuid "90e5b777-9c53-4f71-9eee-39db37b1c4b0")
+		)
+		(pin "10"
+			(uuid "8b016669-c167-4915-bc4c-15d1bd9b8232")
+		)
+		(pin "4"
+			(uuid "59fe1353-f5ab-44b1-95e4-640afe89fd5b")
 		)
 		(instances
-			(project ""
+			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/cb2e7e6c-b6e5-4b1e-adea-6829899b3c9f"
-					(reference "J3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
