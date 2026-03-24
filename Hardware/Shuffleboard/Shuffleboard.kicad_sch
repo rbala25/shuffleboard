@@ -290,6 +290,36 @@
 		)
 		(uuid "021af6c5-35a7-4c36-81ac-f078cc5d1f4b")
 	)
+	(label "PB7_MISO"
+		(at 52.07 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0619fda6-ef74-4bec-a9f5-6323090ce391")
+	)
+	(label "PB9_SPI_CLK"
+		(at 115.57 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1adc4c03-781b-4eb1-a827-0a30629c01cb")
+	)
+	(label "PB15_RESET"
+		(at 115.57 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21267afa-061a-4996-becb-a18e18049c60")
+	)
 	(label "PB4SHOOT"
 		(at 157.48 36.83 0)
 		(effects
@@ -310,6 +340,26 @@
 		)
 		(uuid "2e4fa205-f646-4d7d-b5cd-d782252054b2")
 	)
+	(label "PB15_RESET"
+		(at 59.69 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312bcdd1-4a9b-4bcb-881d-36ca1f2827d6")
+	)
+	(label "PB6_CS"
+		(at 57.15 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "328d84bc-3d83-4fb8-a3ba-b5d136a72b35")
+	)
 	(label "3.3VIN"
 		(at 182.88 73.66 180)
 		(effects
@@ -320,6 +370,16 @@
 		)
 		(uuid "35bb5073-e159-4097-8603-461c4ca2a3e1")
 	)
+	(label "PA13_DC"
+		(at 115.57 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35fa0fc7-1ec5-4613-8ad6-82c5ac263892")
+	)
 	(label "PB16_L{slash}P"
 		(at 182.88 40.64 180)
 		(effects
@@ -329,6 +389,16 @@
 			(justify right bottom)
 		)
 		(uuid "39ba38d0-9d9d-49ad-9257-1a108efd93ec")
+	)
+	(label "PB6_CS"
+		(at 115.57 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39feca20-71fb-4893-a58b-a8619e743c97")
 	)
 	(label "3.3VIN"
 		(at 77.47 38.1 0)
@@ -380,6 +450,26 @@
 		)
 		(uuid "8fb1068d-70b4-44f2-88f6-7164f00695d7")
 	)
+	(label "PB7_MISO"
+		(at 115.57 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9795e659-1fbb-44f8-9753-aeef98ca8c54")
+	)
+	(label "PA13_DC"
+		(at 54.61 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a054844-df50-4b64-99eb-da1ef29b5769")
+	)
 	(label "PB1RST"
 		(at 29.21 54.61 180)
 		(effects
@@ -419,6 +509,16 @@
 			(justify right bottom)
 		)
 		(uuid "d21f205f-0d91-4201-8919-d1c960e29101")
+	)
+	(label "PB8_MOSI"
+		(at 115.57 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2b4dfc8-3274-40b9-8100-2d1855b7cc93")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1121,6 +1221,66 @@
 				(justify left top)
 			)
 		)
+		(pin "PB15_RESET" input
+			(at 115.57 74.93 180)
+			(uuid "df265ab6-db24-4f98-b6f9-97f8158a6abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA13_DC" input
+			(at 115.57 77.47 180)
+			(uuid "abadc036-7886-4004-85a9-18a9dcb200b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB8_MOSI(PICO)" input
+			(at 115.57 80.01 180)
+			(uuid "6347835a-2987-4d53-a5c1-6f82fa8862b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB9_SPI_CLK" input
+			(at 115.57 82.55 180)
+			(uuid "32fd0640-16a1-484d-9c9d-e0a104798137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB7_MISO(POCI)" input
+			(at 115.57 85.09 180)
+			(uuid "25297935-6b21-4948-a049-4a5f4cd6202a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB6_TFT_CS" input
+			(at 115.57 87.63 180)
+			(uuid "e6e00075-1d5d-4ca2-b392-3374871bbaf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e"
@@ -1323,6 +1483,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PB7_MISO(POCI)" output
+			(at 52.07 29.21 90)
+			(uuid "caf18dc1-11d1-4d1e-a384-0c9f29f3e9be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA13_DC" output
+			(at 54.61 29.21 90)
+			(uuid "c5c5bffc-fa94-46ca-835f-25dc9b6995d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB6_TFT_CS" output
+			(at 57.15 29.21 90)
+			(uuid "44604ebf-6aee-4fb1-a019-412553027932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB15_RESET" output
+			(at 59.69 29.21 90)
+			(uuid "933e3aef-a298-45c9-a7e1-f52d3b3540e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

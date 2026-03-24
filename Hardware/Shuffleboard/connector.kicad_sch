@@ -382,6 +382,17 @@
 		)
 		(uuid "11c0ff28-1eec-41c9-ac19-833f96873b20")
 	)
+	(hierarchical_label "PB7_MISO(POCI)"
+		(shape output)
+		(at 39.37 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ab72f99-8676-4441-9161-08321a9c7231")
+	)
 	(hierarchical_label "3.3VIN"
 		(shape output)
 		(at 39.37 19.05 180)
@@ -392,6 +403,17 @@
 			(justify right)
 		)
 		(uuid "24010b90-4469-4d54-92d0-76cf9bd6ad1c")
+	)
+	(hierarchical_label "PB15_RESET"
+		(shape output)
+		(at 39.37 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2829139b-7862-4beb-a0c5-fb684fc7f767")
 	)
 	(hierarchical_label "GNDIN"
 		(shape output)
@@ -427,6 +449,28 @@
 		)
 		(uuid "8fafdd5a-69c3-4afc-b3d8-c44370378533")
 	)
+	(hierarchical_label "PB6_TFT_CS"
+		(shape output)
+		(at 39.37 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9810e719-65b5-4231-870d-5fd2f08127cc")
+	)
+	(hierarchical_label "PA13_DC"
+		(shape output)
+		(at 39.37 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a460fd3d-9f87-4377-b6e7-10e54709ee89")
+	)
 	(hierarchical_label "PB16_LATCH_PULSE"
 		(shape output)
 		(at 39.37 55.88 180)
@@ -449,6 +493,17 @@
 			(justify right)
 		)
 		(uuid "d61b285c-b5c6-4575-bfeb-a751acaf5fb3")
+	)
+	(hierarchical_label "GNDIN"
+		(shape output)
+		(at 39.37 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1711831-1a39-4e38-bc8a-7dc0dd246f6f")
 	)
 	(hierarchical_label "PB4_SHOOT"
 		(shape input)
