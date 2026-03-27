@@ -617,6 +617,17 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 246.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e"
@@ -683,6 +694,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 246.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 246.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -769,6 +791,17 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 246.38 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e"
@@ -845,6 +878,17 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 246.38 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e"
@@ -911,6 +955,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 246.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 246.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1066,6 +1121,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 246.38 66.04 0)
 			(hide yes)
 			(show_name no)

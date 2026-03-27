@@ -553,7 +553,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -577,7 +577,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -631,13 +631,13 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser Link",
           "name": "Mouser Link",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
           "show": true

@@ -630,7 +630,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "640-TBJ05-08-1-G-G"
 			(at 55.88 513.97 0)
 			(hide yes)
 			(show_name no)
@@ -676,6 +676,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/GCT/TBJ05-08-1-G-G?qs=bN4HulGPsrEv0OFHcnyVFQ%3D%3D"
+			(at 39.37 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
+			(at 39.37 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -792,7 +814,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "640-TBJ05-08-1-G-G"
 			(at 55.88 545.72 0)
 			(hide yes)
 			(show_name no)
@@ -838,6 +860,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/GCT/TBJ05-08-1-G-G?qs=bN4HulGPsrEv0OFHcnyVFQ%3D%3D"
+			(at 39.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
+			(at 39.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"

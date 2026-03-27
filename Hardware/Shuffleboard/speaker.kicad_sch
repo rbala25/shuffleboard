@@ -1401,6 +1401,17 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f73eade9-00d3-47d6-98d6-0d3143c12464")
 		)
@@ -1578,6 +1589,17 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 102.87 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "P"
 			(uuid "2f9d9cef-b5d7-4ee4-8c8a-0005946026e3")
 		)
@@ -1677,7 +1699,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1692,7 +1714,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "1k"
 			(at 40.64 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -1759,6 +1781,17 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+			(at 40.64 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 40.64 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -1862,6 +1895,17 @@
 			)
 		)
 		(property "Mouser Part Number" "621-PAM8302AASCR"
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2006,7 +2050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "100n"
 			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2073,6 +2117,17 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2277,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "1u"
 			(at 57.15 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -2333,6 +2388,17 @@
 			)
 		)
 		(property "Mouser Part Number" "963-MCAST21GSB7105MT"
+			(at 57.15 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VALUE" ""
 			(at 57.15 34.29 90)
 			(hide yes)
 			(show_name no)
