@@ -7046,7 +7046,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ffe77713-0426-4de3-8632-c6aa73b1cb7b")
 		(property "Reference" "C11"
 			(at 68.58 101.5999 0)
@@ -7059,9 +7058,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 64.77 102.87 0)
-			(hide yes)
+		(property "Value" "100n"
+			(at 70.866 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

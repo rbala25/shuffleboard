@@ -1109,7 +1109,7 @@
 	)
 	(text "Audio Amp + THT Speaker"
 		(exclude_from_sim no)
-		(at 76.962 51.562 0)
+		(at 76.962 59.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1131,14 +1131,30 @@
 		(uuid "bc18ef24-d551-479c-a4c1-694761059075")
 	)
 	(junction
-		(at 44.45 26.67)
+		(at 76.2 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0465c796-823a-49c2-95df-92e0cfd9657f")
+	)
+	(junction
+		(at 44.45 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "588972ba-87ee-4e02-b674-9f68972f6269")
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 100.33 34.29)
+			(xy 76.2 25.4) (xy 76.2 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a76b328-e32b-4545-8b31-66e657ae1161")
+	)
+	(wire
+		(pts
+			(xy 86.36 41.91) (xy 100.33 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 86.36 24.13)
+			(xy 86.36 34.29) (xy 86.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1174,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 54.61) (xy 127 15.24)
+			(xy 127 68.58) (xy 127 15.24)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 26.67) (xy 53.34 26.67)
+			(xy 44.45 34.29) (xy 53.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 26.67) (xy 36.83 26.67)
+			(xy 34.29 34.29) (xy 36.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 26.67) (xy 66.04 26.67)
+			(xy 60.96 34.29) (xy 66.04 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1214,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 15.24) (xy 13.97 54.61)
+			(xy 13.97 15.24) (xy 13.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 31.75) (xy 86.36 34.29)
+			(xy 86.36 39.37) (xy 86.36 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 24.13) (xy 100.33 24.13)
+			(xy 86.36 31.75) (xy 100.33 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1254,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 54.61) (xy 127 54.61)
+			(xy 13.97 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1246,8 +1262,18 @@
 		)
 		(uuid "dd4eb388-1eb6-4685-a0b2-9178bb94517d")
 	)
+	(wire
+		(pts
+			(xy 76.2 25.4) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa96edee-250c-4918-8cb5-eb88433736f8")
+	)
 	(label "OUT-"
-		(at 100.33 34.29 0)
+		(at 100.33 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1283,7 @@
 		(uuid "6b434ab7-f675-49a4-8636-10d3a8c691a4")
 	)
 	(label "OUT+"
-		(at 100.33 24.13 0)
+		(at 100.33 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1294,7 @@
 	)
 	(hierarchical_label "PA15_DAC_OUT"
 		(shape input)
-		(at 34.29 26.67 180)
+		(at 34.29 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,8 +1304,121 @@
 		(uuid "a6ae755c-3de5-4865-95c6-01cd731bc713")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 80.01 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "078a66ee-060d-4a3c-a39b-a695b9f51699")
+		(property "Reference" "C12"
+			(at 78.7399 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 81.026 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 83.82 24.4348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/06031C104K4T2A?qs=7MVldsJ5UaycASOsZ6%2FbJQ%3D%3D"
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB #" "C1880996"
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06031C104K4T2A"
+			(at 80.01 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f73eade9-00d3-47d6-98d6-0d3143c12464")
+		)
+		(pin "1"
+			(uuid "815ce772-98cc-4100-ad77-5cbec5dbb7c2")
+		)
+		(instances
+			(project "Shuffleboard"
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/db913484-4a84-4730-99d9-828e59dd1f66"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SpeakerShuff:CMS-3012-18T")
-		(at 102.87 29.21 0)
+		(at 102.87 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1290,7 +1429,7 @@
 		(fields_autoplaced yes)
 		(uuid "0feda43f-13ad-4e9d-bcef-0dc68daa3683")
 		(property "Reference" "LS1"
-			(at 106.68 27.9399 0)
+			(at 106.68 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1301,7 +1440,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1312,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" "ShuffleboardFootprints:SPKR_CMS-3012-18T"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,7 +1463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Same-Sky/CMS-3012-18T?qs=mELouGlnn3e4jtVvvvkX0Q%3D%3D"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,7 +1485,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "13.0mm"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1358,7 +1497,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1509,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1521,7 @@
 			)
 		)
 		(property "PARTREV" "1.01"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,7 +1533,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +1545,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Same Sky"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1557,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/datasheet/3/6118/1/cms_3012_18t.pdf"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1429,7 +1568,7 @@
 			)
 		)
 		(property "Mouser Part Number" "179-CMS-3012-18T"
-			(at 102.87 29.21 0)
+			(at 102.87 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,7 +1595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 34.29 0)
+		(at 44.45 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1467,7 +1606,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ef19b20-dbc0-4a49-9d59-056ab90c9e41")
 		(property "Reference" "#PWR024"
-			(at 44.45 40.64 0)
+			(at 44.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +1617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 39.37 0)
+			(at 44.45 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1488,7 +1627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 34.29 0)
+			(at 44.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1499,7 +1638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 34.29 0)
+			(at 44.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,7 +1649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 34.29 0)
+			(at 44.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 26.67 90)
+		(at 40.64 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1544,7 +1683,7 @@
 		(dnp no)
 		(uuid "69b36183-6cbd-4750-b284-27d2658399e3")
 		(property "Reference" "R7"
-			(at 40.64 21.59 90)
+			(at 40.64 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1554,7 +1693,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 40.64 26.67 90)
+			(at 40.64 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1565,7 +1704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 40.64 28.448 90)
+			(at 40.64 36.068 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 26.67 0)
+			(at 40.64 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +1726,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 26.67 0)
+			(at 40.64 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1737,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEA?qs=CToX950LohJasujQx7GY3g%3D%3D"
-			(at 40.64 26.67 0)
+			(at 40.64 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,7 +1748,7 @@
 			)
 		)
 		(property "JLCPCB #" "C21190"
-			(at 40.64 26.67 90)
+			(at 40.64 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1620,7 +1759,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 40.64 26.67 90)
+			(at 40.64 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1786,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Audio:PAM8302AAS")
-		(at 76.2 31.75 0)
+		(at 76.2 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1655,10 +1794,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b87ce55-70eb-4b28-ab9a-41a819e98ffc")
 		(property "Reference" "U2"
-			(at 78.3433 19.05 0)
+			(at 81.026 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1669,7 +1807,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" "ShuffleboardFootprints:SOIC127P600X170-8N"
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1840,7 @@
 			)
 		)
 		(property "Description" "2.5W Filterless Class-D Mono Audio Amplifier, MSOP-8"
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,7 +1851,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/PAM8302AASCR?qs=pYVYkI7xuRXTVZEQSGcDyg%3D%3D"
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1724,7 +1862,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-PAM8302AASCR"
-			(at 76.2 31.75 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 41.91 0)
+		(at 76.2 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1780,7 +1918,7 @@
 		(fields_autoplaced yes)
 		(uuid "71f7e55e-8b0d-4366-9303-56f5131713f7")
 		(property "Reference" "#PWR022"
-			(at 76.2 48.26 0)
+			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1929,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 46.99 0)
+			(at 76.2 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 41.91 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 41.91 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 41.91 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +1985,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 30.48 0)
+		(at 44.45 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1858,7 +1996,7 @@
 		(fields_autoplaced yes)
 		(uuid "99941d92-71ba-4aba-8f39-ba340293ed3e")
 		(property "Reference" "C8"
-			(at 48.26 29.2099 0)
+			(at 48.26 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1869,7 +2007,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,7 +2018,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 45.4152 34.29 0)
+			(at 45.4152 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +2029,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +2040,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1913,7 +2051,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/06031C104K4T2A?qs=7MVldsJ5UaycASOsZ6%2FbJQ%3D%3D"
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +2062,7 @@
 			)
 		)
 		(property "JLCPCB #" "C1880996"
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +2073,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 44.45 30.48 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +2100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 31.75 270)
+		(at 66.04 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1973,7 +2111,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0deb046-4476-4cf1-abf6-4b74d4d3649f")
 		(property "Reference" "#PWR023"
-			(at 59.69 31.75 0)
+			(at 59.69 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +2122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 31.7499 90)
+			(at 62.23 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1995,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 31.75 0)
+			(at 66.04 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2006,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 31.75 0)
+			(at 66.04 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2017,7 +2155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 31.75 0)
+			(at 66.04 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2041,7 +2179,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 36.83 90)
+		(at 66.04 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2052,7 +2190,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2016334-d684-440b-9e2d-e1de18838fa1")
 		(property "Reference" "#PWR021"
-			(at 69.85 36.83 0)
+			(at 69.85 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2063,7 +2201,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 62.23 36.8299 90)
+			(at 62.23 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2074,7 +2212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 36.83 0)
+			(at 66.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2085,7 +2223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 36.83 0)
+			(at 66.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 36.83 0)
+			(at 66.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2120,7 +2258,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 26.67 90)
+		(at 57.15 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2130,7 +2268,7 @@
 		(dnp no)
 		(uuid "bc968935-2b1a-48d0-9e14-7970e102c035")
 		(property "Reference" "C9"
-			(at 57.15 20.32 90)
+			(at 57.15 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2140,7 +2278,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 57.15 26.67 90)
+			(at 57.15 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2289,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 60.96 25.7048 0)
+			(at 60.96 33.3248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 26.67 0)
+			(at 57.15 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,7 +2311,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 26.67 0)
+			(at 57.15 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2322,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MCAST21GSB7105MTNB25?qs=tlsG%2FOw5FFgklVSELtG1Zg%3D%3D"
-			(at 57.15 26.67 90)
+			(at 57.15 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +2333,7 @@
 			)
 		)
 		(property "Mouser Part Number" "963-MCAST21GSB7105MT"
-			(at 57.15 26.67 90)
+			(at 57.15 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,6 +2353,85 @@
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/db913484-4a84-4730-99d9-828e59dd1f66"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2d6319-1e4b-4e66-a803-92d2e53fa1f5")
+		(property "Reference" "#PWR055"
+			(at 90.17 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97631469-136a-4b54-ba71-576c523e5f66")
+		)
+		(instances
+			(project "Shuffleboard"
+				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/db913484-4a84-4730-99d9-828e59dd1f66"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
