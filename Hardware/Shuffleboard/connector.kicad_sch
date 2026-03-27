@@ -1,16 +1,20 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f770c673-b0d4-44f0-8e5d-f79e424a695b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ShuffCon:1869279"
+		(symbol "Shuffle:TBJ05-08-1-G-G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +22,10 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1869279"
+			(property "Value" "TBJ05-08-1-G-G"
 				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,86 +33,102 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1869279"
+			(property "Footprint" "TBJ05081GG"
 				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkdsn-15-8-508-1869279?type=pdf"
+			(property "Datasheet" "https://gct.co/connector/tbj05"
 				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: SMKDSN 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 45 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(property "Description" "Fixed Terminal Blocks 8w, 5.08mm Pitch Term-Block, Side Entry, TH, Rising Clamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Height" "11.15"
+			(property "Height" "18"
 				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "651-1869279"
+			(property "Mouser Part Number" ""
 				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1869279?qs=8M15sSGRUn%2F69Aw%2FB0Q9QQ%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Phoenix Contact"
+			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
 				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1869279"
+			(property "Manufacturer_Part_Number" "TBJ05-08-1-G-G"
 				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
-			(symbol "1869279_1_1"
+			(symbol "TBJ05-08-1-G-G_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -20.32)
@@ -528,17 +550,21 @@
 		(uuid "f636db06-9e1e-4fb7-8d63-d42a28da20c6")
 	)
 	(symbol
-		(lib_id "ShuffCon:1869279")
-		(at 39.37 50.8 0)
+		(lib_id "Shuffle:TBJ05-08-1-G-G")
+		(at 39.37 19.05 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d6104f1a-5fc2-4c84-ac2d-326ac36deb8c")
-		(property "Reference" "J2"
-			(at 55.88 58.4199 0)
+		(uuid "64f77309-1034-4873-966e-26f7f2f63e14")
+		(property "Reference" "J1"
+			(at 55.88 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,8 +572,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1869279"
-			(at 55.88 60.9599 0)
+		(property "Value" "TBJ05-08-1-G-G"
+			(at 55.88 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,139 +583,150 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1869279"
-			(at 55.88 145.72 0)
+		(property "Footprint" "ShuffleboardFootprints:TBJ05081GG"
+			(at 55.88 113.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkdsn-15-8-508-1869279?type=pdf"
-			(at 55.88 245.72 0)
+		(property "Datasheet" "https://gct.co/connector/tbj05"
+			(at 55.88 213.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: SMKDSN 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 45 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 39.37 50.8 0)
+		(property "Description" "Fixed Terminal Blocks 8w, 5.08mm Pitch Term-Block, Side Entry, TH, Rising Clamp"
+			(at 39.37 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Height" "11.15"
-			(at 55.88 445.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1869279"
-			(at 55.88 545.72 0)
+		(property "Height" "18"
+			(at 55.88 413.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1869279?qs=8M15sSGRUn%2F69Aw%2FB0Q9QQ%3D%3D"
-			(at 55.88 645.72 0)
+		(property "Mouser Part Number" ""
+			(at 55.88 513.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 55.88 745.72 0)
+		(property "Mouser Price/Stock" ""
+			(at 55.88 613.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1869279"
-			(at 55.88 845.72 0)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 55.88 713.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Phoenix-Contact/1869279?qs=8M15sSGRUn%2F69Aw%2FB0Q9QQ%3D%3D"
-			(at 39.37 50.8 0)
+		(property "Manufacturer_Part_Number" "TBJ05-08-1-G-G"
+			(at 55.88 813.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
-		)
-		(pin "1"
-			(uuid "5d10f1f4-e636-4c7d-9a0d-334fcfb3c22f")
-		)
-		(pin "2"
-			(uuid "64af16d2-274f-43a6-a893-2b19683400a7")
-		)
-		(pin "3"
-			(uuid "b490a781-1c67-4ec9-873e-67590ab56972")
-		)
-		(pin "4"
-			(uuid "80a6c5c5-f40b-4f38-8c04-998af643c585")
-		)
-		(pin "5"
-			(uuid "12a3a2c2-e2bb-421a-a79e-3a4b3408ac88")
-		)
-		(pin "6"
-			(uuid "494d35db-7e5e-49f5-b3c9-c8d30aad8696")
-		)
-		(pin "7"
-			(uuid "1baa8eb3-13f4-4121-bb2b-55ea48d2355b")
 		)
 		(pin "8"
-			(uuid "de2cd635-ba40-4b65-bc3f-17d63c783bd6")
+			(uuid "83cd7988-d5b0-4fec-8486-de2d192590a5")
+		)
+		(pin "1"
+			(uuid "6cfb1a2a-2674-477f-80c3-df8d8909ca76")
+		)
+		(pin "6"
+			(uuid "180b14fb-d621-4d68-b11b-75ec6f09b550")
+		)
+		(pin "7"
+			(uuid "213dc67f-c833-48c1-9832-e127122e05ca")
+		)
+		(pin "5"
+			(uuid "742af079-6c4f-43ec-9c60-57f565d8ae23")
+		)
+		(pin "4"
+			(uuid "e9a02503-a9bf-47a6-b2eb-16091e0bb447")
+		)
+		(pin "2"
+			(uuid "f5351c54-409d-4e17-ae4c-71fdfea56013")
+		)
+		(pin "3"
+			(uuid "403d9ec0-e1ed-406b-b826-6152dc41b2f4")
 		)
 		(instances
 			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/f6cbe0e1-299e-456f-b96f-f85427eff6fd"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ShuffCon:1869279")
-		(at 39.37 19.05 0)
+		(lib_id "Shuffle:TBJ05-08-1-G-G")
+		(at 39.37 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e51d7c99-7904-40a6-8628-097eb3cfd3dc")
-		(property "Reference" "J1"
-			(at 55.88 26.6699 0)
+		(uuid "dddca274-cabe-4729-9625-e7612571f86a")
+		(property "Reference" "J2"
+			(at 55.88 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,8 +734,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1869279"
-			(at 55.88 29.2099 0)
+		(property "Value" "TBJ05-08-1-G-G"
+			(at 55.88 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,122 +745,129 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1869279"
-			(at 55.88 113.97 0)
+		(property "Footprint" "ShuffleboardFootprints:TBJ05081GG"
+			(at 55.88 145.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkdsn-15-8-508-1869279?type=pdf"
-			(at 55.88 213.97 0)
+		(property "Datasheet" "https://gct.co/connector/tbj05"
+			(at 55.88 245.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: SMKDSN 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 45 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 39.37 19.05 0)
+		(property "Description" "Fixed Terminal Blocks 8w, 5.08mm Pitch Term-Block, Side Entry, TH, Rising Clamp"
+			(at 39.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Height" "11.15"
-			(at 55.88 413.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1869279"
-			(at 55.88 513.97 0)
+		(property "Height" "18"
+			(at 55.88 445.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1869279?qs=8M15sSGRUn%2F69Aw%2FB0Q9QQ%3D%3D"
-			(at 55.88 613.97 0)
+		(property "Mouser Part Number" ""
+			(at 55.88 545.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 55.88 713.97 0)
+		(property "Mouser Price/Stock" ""
+			(at 55.88 645.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1869279"
-			(at 55.88 813.97 0)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 55.88 745.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Phoenix-Contact/1869279?qs=8M15sSGRUn%2F69Aw%2FB0Q9QQ%3D%3D"
-			(at 39.37 19.05 0)
+		(property "Manufacturer_Part_Number" "TBJ05-08-1-G-G"
+			(at 55.88 845.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
-		)
-		(pin "1"
-			(uuid "a36ff05a-682a-47cf-bc58-ad1638121b43")
-		)
-		(pin "2"
-			(uuid "a774d8c0-0c1c-4cfa-b9c7-c215f5917e59")
-		)
-		(pin "3"
-			(uuid "96a52e50-6353-4faf-9cef-4334671f6c3a")
-		)
-		(pin "4"
-			(uuid "a86cb994-6ccc-4c50-8b73-c1bce88c6f0b")
-		)
-		(pin "5"
-			(uuid "7aa3872c-1045-4a55-bc6c-b6cc8e641360")
-		)
-		(pin "6"
-			(uuid "07a70c1d-dd5a-4632-a2cc-93233f9cb332")
-		)
-		(pin "7"
-			(uuid "279b5c81-213a-4c40-9de1-16b957990d1f")
 		)
 		(pin "8"
-			(uuid "8fe2bfd7-8e2c-482b-adbe-8b2a470d5913")
+			(uuid "f7dc28e5-f8f7-4420-8057-a565850c9ec7")
+		)
+		(pin "1"
+			(uuid "936983ed-3fb4-4186-afee-8d360cfdff66")
+		)
+		(pin "6"
+			(uuid "3772266f-843a-4c1b-a63d-1bab0b38bb74")
+		)
+		(pin "7"
+			(uuid "86a7b0ae-6edd-49e7-958c-e415b17973fb")
+		)
+		(pin "5"
+			(uuid "be84deaf-d6e6-4f86-a2b1-a72cba5d7e07")
+		)
+		(pin "4"
+			(uuid "0b747a66-ff48-4d2f-9299-ba998e01bdce")
+		)
+		(pin "2"
+			(uuid "b82cd1f8-f735-4bc6-87ee-ab1412d1eb84")
+		)
+		(pin "3"
+			(uuid "2f784c51-34f2-4baa-82b2-8a56654381b9")
 		)
 		(instances
-			(project ""
+			(project "Shuffleboard"
 				(path "/8d05e546-da1a-40d0-9e47-08c4b800bb0e/f6cbe0e1-299e-456f-b96f-f85427eff6fd"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
