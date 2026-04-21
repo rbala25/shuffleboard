@@ -1,6 +1,6 @@
 # Shuffleboard
  
-Multiplayer shuffleboard built on bare-metal C/C++ for the TM4C123 — no OS, no shortcuts. ECE319H Final Project.
+60 FPS Multiplayer shuffleboard built on bare-metal C/C++ for the TM4C123 — no OS, no shortcuts. ECE319H Final Project.
  
 ---
  
