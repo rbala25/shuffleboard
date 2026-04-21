@@ -3333,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -3389,17 +3389,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -3524,7 +3513,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -3580,17 +3569,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -3714,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -3770,17 +3748,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -3905,7 +3872,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -3971,17 +3938,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6c9a47f3-07eb-4b04-a553-d0070fcb22b8")
 		)
@@ -4018,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -4074,17 +4030,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -4287,7 +4232,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -4353,17 +4298,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "44cbdcb9-051a-4e4f-bf70-d5d526fdce4d")
 		)
@@ -4400,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4456,17 +4390,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -4726,17 +4649,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -5068,17 +4980,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 115.57 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "cc2fa7a1-bb34-4477-be71-0cacb8c088d7")
 		)
@@ -5139,7 +5040,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -5205,17 +5106,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0f73ddb2-9f00-4de3-a3bd-68ba413c22cc")
 		)
@@ -5254,7 +5144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 64.77 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5331,17 +5221,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 64.77 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6a492300-1d1f-4adb-b163-a213587ebbce")
 		)
@@ -5378,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -5434,17 +5313,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -5570,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 127 90)
 			(hide yes)
 			(show_name no)
@@ -5636,17 +5504,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1ab3349a-a92f-4bb3-a54d-2ea9a2497644")
 		)
@@ -5683,7 +5540,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -5749,17 +5606,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ab0a9c98-ce75-4c0e-bad7-cab886505d68")
 		)
@@ -5796,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5862,17 +5708,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "be351f79-8264-4126-8550-77250f6077f2")
 		)
@@ -5909,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -5975,17 +5810,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 99.06 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "14839481-f454-4c6d-bee9-7f0bf8f85a71")
 		)
@@ -6022,7 +5846,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -6078,17 +5902,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -6253,17 +6066,6 @@
 			)
 		)
 		(property "Mouser Part Number" "743-INND-TS56RCB"
-			(at 115.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 115.57 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6665,17 +6467,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 48.26 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "16"
 			(uuid "f96ba010-6fcc-489c-8d47-c36256f03332")
 		)
@@ -6910,7 +6701,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" ""
 			(at 99.06 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -6966,17 +6757,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603100RJNEBC"
-			(at 99.06 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 99.06 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -7199,17 +6979,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 48.26 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "16"
 			(uuid "9984fc33-d6d6-423c-93b7-5250fe9bf983")
 		)
@@ -7289,8 +7058,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 70.866 103.886 0)
+		(property "Value" ""
+			(at 64.77 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7355,17 +7125,6 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 64.77 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 64.77 102.87 0)
 			(hide yes)
 			(show_name no)

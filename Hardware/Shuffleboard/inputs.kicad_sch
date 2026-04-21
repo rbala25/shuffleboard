@@ -3439,7 +3439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 45.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3506,17 +3506,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
-			(at 45.72 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 45.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3838,17 +3827,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 34.29 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "a9c45065-92e7-4d90-9e6b-07919411bb73")
 		)
@@ -3976,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" ""
 			(at 144.78 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4043,17 +4021,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 144.78 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 144.78 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4313,17 +4280,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 118.11 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "H2"
 			(uuid "97a60058-e621-42a1-83fe-773f8fafe471")
 		)
@@ -4468,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 220.98 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -4536,17 +4492,6 @@
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 220.98 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
-			(at 220.98 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,17 +4655,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 209.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "bf3ae7c8-87c7-468f-994d-c61c10da417f")
 		)
@@ -4848,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" ""
 			(at 53.34 22.86 90)
 			(hide yes)
 			(show_name no)
@@ -4915,17 +4849,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 53.34 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 53.34 22.86 90)
 			(hide yes)
 			(show_name no)
@@ -5052,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 59.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5119,17 +5042,6 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 59.69 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 59.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +5640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" ""
 			(at 264.16 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -5795,17 +5707,6 @@
 			)
 		)
 		(property "Mouser Part Number" "645-521-8714F"
-			(at 264.16 24.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 264.16 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -5988,17 +5889,6 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTA6432010CIA203"
-			(at 33.02 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 33.02 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 237.49 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6274,17 +6164,6 @@
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 237.49 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
-			(at 237.49 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6409,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" ""
 			(at 45.72 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -6476,17 +6355,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 45.72 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 45.72 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6480,7 @@
 				)
 			)
 		)
-		(property "Value" "Comparator"
+		(property "Value" ""
 			(at 222.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6668,17 +6536,6 @@
 			)
 		)
 		(property "Mouser Part Number" "595-LMV331IDCKRE4"
-			(at 222.25 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 222.25 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6891,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" ""
 			(at 55.88 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -6958,17 +6815,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 55.88 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 55.88 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" ""
 			(at 144.78 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -7161,17 +7007,6 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
-			(at 144.78 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 144.78 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -7520,17 +7355,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 30.48 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "c0fa6880-245a-4b0f-91ba-8c0d71669d35")
 		)
@@ -7574,7 +7398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7641,17 +7465,6 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7779,8 +7592,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 57.15 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7855,17 +7669,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 57.15 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d91fc16b-dcac-4290-8a51-7b4d2ca835a2")
 		)
@@ -7904,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 43.18 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7981,17 +7784,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 43.18 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f8407c91-c423-4c9d-8486-2d0404eaa72f")
 		)
@@ -8028,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" ""
 			(at 248.92 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -8096,17 +7888,6 @@
 		)
 		(property "Mouser Part Number" "279-CRGCQ2010F330R"
 			(at 248.92 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
-			(at 248.92 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,17 +8113,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "35415b69-de6f-49ab-9018-8ffd48a23ad4")
 		)
@@ -8382,7 +8152,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 203.2 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -8450,17 +8220,6 @@
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
-			(at 203.2 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8730,17 +8489,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 33.02 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "455b23d9-ebf0-410d-aeb8-866412fcd7b2")
 		)
@@ -8940,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 203.2 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -9017,17 +8765,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 203.2 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "89eabb50-46c3-48fa-b44d-95d401b3171b")
 		)
@@ -9066,7 +8803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 49.53 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9133,17 +8870,6 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 49.53 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 49.53 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9268,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" ""
 			(at 260.35 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -9345,17 +9071,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 260.35 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f926982b-bb90-4e48-89d7-03b669181fb8")
 		)
@@ -9393,7 +9108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" ""
 			(at 148.59 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9460,17 +9175,6 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06031C104K4T2A"
-			(at 148.59 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 148.59 62.23 0)
 			(hide yes)
 			(show_name no)

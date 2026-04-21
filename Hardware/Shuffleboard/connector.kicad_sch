@@ -572,15 +572,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBJ05-08-1-G-G"
-			(at 55.88 29.2099 0)
+		(property "Value" ""
+			(at 39.37 19.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "ShuffleboardFootprints:TBJ05081GG"
@@ -689,17 +689,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 39.37 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
 			(uuid "83cd7988-d5b0-4fec-8486-de2d192590a5")
 		)
@@ -756,15 +745,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBJ05-08-1-G-G"
-			(at 55.88 60.9599 0)
+		(property "Value" ""
+			(at 39.37 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "ShuffleboardFootprints:TBJ05081GG"
@@ -863,17 +852,6 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.com/ProductDetail/GCT/TBJ05-08-1-G-G?qs=bN4HulGPsrEv0OFHcnyVFQ%3D%3D"
-			(at 39.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VALUE" ""
 			(at 39.37 50.8 0)
 			(hide yes)
 			(show_name no)

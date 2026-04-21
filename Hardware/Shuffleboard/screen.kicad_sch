@@ -1028,17 +1028,6 @@
 				)
 			)
 		)
-		(property "VALUE" ""
-			(at 55.88 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "79668309-f416-43a7-b5a1-fb79c678fe81")
 		)
