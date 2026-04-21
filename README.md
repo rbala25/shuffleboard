@@ -8,7 +8,7 @@
  
 **Comparator + FET Input Detection** — Puck sensing uses a custom analog comparator circuit driving an N-channel FET, with hardware debouncing and firmware-level input validation. Fast, noise-resistant, and doesn't rely on polling.
  
-**Custom DAC + Audio** — Sound effects generated through an R-2R resistor ladder DAC feeding a discrete speaker amplifier — no audio IC, just resistors and math.
+**Custom DAC + Audio** — Sound effects generated through an R-2R resistor ladder DAC feeding a discrete amplifier and speaker.
  
 **SPI Display Pipeline** — ST7735 TFT screen handles all game state rendering and animations via SPI. Score output runs in parallel on 7-segment displays driven by 74HC595 shift registers.
  
