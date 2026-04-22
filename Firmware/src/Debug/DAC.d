@@ -1,6 +1,6 @@
 # FIXED
 
-Sound.o: ../Sound.cpp \
+DAC.o: ../DAC.c \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/msp.h \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/DeviceFamily.h \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/m0p/mspm0g350x.h \
@@ -31,7 +31,7 @@ Sound.o: ../Sound.cpp \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
  /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
- ../Sound.h ../shoot.txt ../collision.txt ../winner.txt ../../inc/DAC.h
+ ../../inc/LaunchPad.h ../../inc/DAC.h ../../inc/Clock.h
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/msp.h:
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/DeviceFamily.h:
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/m0p/mspm0g350x.h:
@@ -62,8 +62,6 @@ Sound.o: ../Sound.cpp \
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
 /Applications/ti/mspm0_sdk_2_09_00_01/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
-../Sound.h:
-../shoot.txt:
-../collision.txt:
-../winner.txt:
+../../inc/LaunchPad.h:
 ../../inc/DAC.h:
+../../inc/Clock.h:

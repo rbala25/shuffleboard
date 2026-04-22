@@ -25,14 +25,17 @@ CMD_SRCS += \
 ../mspm0g3507.cmd 
 
 C_SRCS += \
-../Button.c 
+../Button.c \
+../DAC.c 
 
 C_DEPS += \
-./Button.d 
+./Button.d \
+./DAC.d 
 
 OBJS += \
 ./Button.o \
 ./Clock.o \
+./DAC.o \
 ./DAC5.o \
 ./Graphics.o \
 ./LED.o \
@@ -70,6 +73,7 @@ CPP_DEPS += \
 OBJS__QUOTED += \
 "Button.o" \
 "Clock.o" \
+"DAC.o" \
 "DAC5.o" \
 "Graphics.o" \
 "LED.o" \
@@ -87,7 +91,8 @@ OBJS__QUOTED += \
 "Timer.o" 
 
 C_DEPS__QUOTED += \
-"Button.d" 
+"Button.d" \
+"DAC.d" 
 
 CPP_DEPS__QUOTED += \
 "Clock.d" \
@@ -108,7 +113,8 @@ CPP_DEPS__QUOTED += \
 "Timer.d" 
 
 C_SRCS__QUOTED += \
-"../Button.c" 
+"../Button.c" \
+"../DAC.c" 
 
 CPP_SRCS__QUOTED += \
 "/Users/rishibala/Desktop/ECE-319H-Labs/inc/Clock.cpp" \

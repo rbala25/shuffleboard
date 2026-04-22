@@ -10,6 +10,7 @@ GEN_CMDS__FLAG :=
 ORDERED_OBJS += \
 "./Button.o" \
 "./Clock.o" \
+"./DAC.o" \
 "./DAC5.o" \
 "./Graphics.o" \
 "./LED.o" \
@@ -160,8 +161,8 @@ ECE319K_Lab9H.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "Button.o" "Clock.o" "DAC5.o" "Graphics.o" "LED.o" "Lab9HMain.o" "LaunchPad.o" "Puck.o" "SPI.o" "ST7735.o" "ScoreDisplay.o" "SlidePot.o" "SmallFont.o" "Sound.o" "Switch.o" "TExaS.o" "Timer.o" "images/pipedreams/PipeSound.o" "ticlang/startup_mspm0g3507_ticlang.o" 
-	-$(RM) "Button.d" "images/pipedreams/PipeSound.d" "ticlang/startup_mspm0g3507_ticlang.d" 
+	-$(RM) "Button.o" "Clock.o" "DAC.o" "DAC5.o" "Graphics.o" "LED.o" "Lab9HMain.o" "LaunchPad.o" "Puck.o" "SPI.o" "ST7735.o" "ScoreDisplay.o" "SlidePot.o" "SmallFont.o" "Sound.o" "Switch.o" "TExaS.o" "Timer.o" "images/pipedreams/PipeSound.o" "ticlang/startup_mspm0g3507_ticlang.o" 
+	-$(RM) "Button.d" "DAC.d" "images/pipedreams/PipeSound.d" "ticlang/startup_mspm0g3507_ticlang.d" 
 	-$(RM) "Clock.d" "DAC5.d" "Graphics.d" "LED.d" "Lab9HMain.d" "LaunchPad.d" "Puck.d" "SPI.d" "ST7735.d" "ScoreDisplay.d" "SlidePot.d" "SmallFont.d" "Sound.d" "Switch.d" "TExaS.d" "Timer.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

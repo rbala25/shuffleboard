@@ -9,9 +9,9 @@
 void Sound_Init(void);
 
 // Set active sound buffer and re-enable output; plays once then stops
-// pt - pointer to array of 8-bit PCM samples (0-255)
-// count - number of samples
-void Sound_Start(const uint16_t *pt, uint32_t count);
+// pt - pointer to array of 12-bit PCM samples, count - number of samples
+// gain - integer amplitude multiplier (1 = unity, 2 = double, etc.)
+void Sound_Start(const uint16_t *pt, uint32_t count, int32_t gain);
 
 void Sound_Shoot(void);     // puck firing sound
 void Sound_Collision(void); // puck/wall collision sound

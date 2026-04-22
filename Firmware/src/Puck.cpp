@@ -60,11 +60,11 @@ int8_t Puck::check_Collisions(uint8_t puckId){
 }
 
 void Puck::process_Collision(uint8_t firstId, uint8_t secondId, float speed){
-    //Find the vector between the two centers of the puck (vector in which the pucks strike each other)
+    //Find the vector between the two centers of the puck 
     float vectorX = ((pArray[firstId].x-pArray[secondId].x));
     float vectorY = ((pArray[firstId].y-pArray[secondId].y));
     float vector = (float)sqrt(vectorX*vectorX + vectorY*vectorY);
-    //Normalize it so we can multiply it by our velocity components
+    //Normalize it 
     vectorX/=vector;
     vectorY/=vector;
     //Get the part of each velocity that points toward the vector

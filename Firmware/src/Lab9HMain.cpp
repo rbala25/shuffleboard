@@ -176,10 +176,10 @@ int main(void){
         break;
 
       case AIMING: {
-        // erase arrow at current (old) puck position before sliding
+        // erase arrow at current puck position before sliding
         drawArrow(pArray[activePuck].x, pArray[activePuck].y, prevAim, prevPower, true);
 
-        // slide active puck left/right with start ADC
+        // slide active puck left/right with start pot
         {
           float newX = (start + 1.0f) * 0.5f * 113.0f;
           if(newX < 0.0f) newX = 0.0f;

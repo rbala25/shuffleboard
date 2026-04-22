@@ -1,5 +1,6 @@
 "./Button.o"
 "./Clock.o"
+"./DAC.o"
 "./DAC5.o"
 "./Graphics.o"
 "./LED.o"
